@@ -1,0 +1,73 @@
+.angle{
+    /* background-color: red; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.angle input{
+font-size: 1.2em;
+padding: 5px;
+outline: none;
+border: none;
+background: none;
+cursor: pointer;
+}
+/* .angle */
+.angle select{
+font-size: 1.2em;
+outline: none;
+border: none;
+padding: 5px;
+background: none
+
+}
+.angle select:hover{
+    outline: 1px solid #0000003c;
+}
+.angle select:focus{
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.positionKeyWord select{
+    font-size: 1.4em;
+margin-bottom:10px ;
+border:none;
+outline: none;
+background: none;
+cursor: pointer;
+}
+
+.positionKeyWord select:hover{
+    outline: 1px solid #0000004a;
+}
+.positionKeyWord select:focus{
+    outline: 1px solid rgba(0, 0, 0);
+}
+
+
+.Xaxis{
+    /* background-color: #fff; */
+    padding: 3px 5px;
+    display: flex;
+    gap: 4px
+    ;
+}
+
+.radialScreen_manually div{
+    flex: 1;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+.radialScreen_manually p{
+    flex: .12;
+    /* bgc */
+}

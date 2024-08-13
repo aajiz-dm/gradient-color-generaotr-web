@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playwrite+CZ:wght@100..400&family=VT323&display=swap');
+.GraidentApp_Nav{
+    height: 15vh;
+    width: 100%;
+    /* background-color: red; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.GraidentApp_Nav >nav{
+    height: 80%;
+    width:97%;
+    background-color: rgba(245, 222, 179, 0.63);
+    margin: 1.3% 3%;
+    /* color: whitesmoke; */
+    /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; */
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    text-align: left;
+    /* color: #593300; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0px; */
+    font-family: "Abril Fatface", serif;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+
+}
+.GraidentApp_Nav>nav div{
+    border-left: 10px ridge orange;
+    border-right: 10px ridge orange;
+    flex: 1;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+.GraidentApp_Nav>nav div a{
+    text-decoration: none;
+    /* color: white; */
+    font-size: large;
+}
+
+.GraidentApp_Nav nav div:nth-child(1){
+ border: none;
+ /* background-color: #fff; */
+background-color: wheat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height:23px;
+/* font-size: 1.5rem; */
+}
+
+.dM{
+    color: #593300;
+    /* color: red; */
+    font-size: 1.5em;
+}
+
+.generaotr{
+font-size: 2rem;
+letter-spacing: 10px;
+background: linear-gradient(270deg, #ff8a00, green, blue, red);
+background-size: 800% 800%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradientAnimation 8s ease infinite;
+
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.gardient{
+    font-size: 1.5em;
+
+}
+
+
+.linear{
+
+    /* background-color: #fff; */
+    /* color: #593300; */
+    /* color: white; */
+    /* background: linear-gradient(to right, #ff0000, #ffff00, #008000); */
+background: linear-gradient(5deg, #BE8636,#AD4DA4,#95E393);
+}
+
+.conic{
+    background: conic-gradient(from 0deg at center, red, yellow, green);
+
+}
+.Radial{
+    background: radial-gradient(circle, red, yellow, green);
+
+}
+
+.ReapeatingLinear{
+    background: repeating-linear-gradient(
+        45deg,
+        red,
+        red 10%,
+        yellow 10%,
+        yellow 20%,
+        green 20%,
+        green 30%
+    );
+}
+
+.repetingRadial{
+    background: repeating-radial-gradient(
+        circle,
+        red,
+        red 10%,
+        yellow 10%,
+        yellow 20%,
+        green 20%,
+        green 30%
+    );
+    text-align: center;
+}
+.repetingRadial a mark{
+    /* color: chocolate; */
+    /* background-color: #ffffffc9; */
+    /* backdrop-filter:; */
+    /* color: red; */
+    backdrop-filter: invert(80%);
+
+}
+
+
+.repeatingConic{
+    background: repeating-conic-gradient(
+        from 0deg,
+        red 0deg,
+        yellow 30deg,
+        green 60deg,
+        red 90deg
+    );
+}
+
+
+.GraidentApp_Nav mark{
+    background-color: rgba(0, 0, 0, 0.533);
+    color: white;
+    padding: 0px 4px ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.GraidentApp_Nav mark:hover{
+    color:rgba(255, 255, 255, 0.74);
+    /* transform: scale(1.2); */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

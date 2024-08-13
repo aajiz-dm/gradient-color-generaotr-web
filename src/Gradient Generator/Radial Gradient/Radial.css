@@ -1,0 +1,190 @@
+.RadialBody{
+    height: 82vh;
+    width: 100%;
+    background-color: wheat;
+    margin-top: 3vh;
+}
+
+
+.RadialScreen{
+    height: 60%;
+    width: 100%;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2px;
+-webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+.RadialScreen .screenOne,.screentwo,.screenthree{
+    /* flex: 1; */
+    width: 33%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom:10px ;
+flex-direction: column;
+}
+
+
+
+
+.RadialScreen div p{
+
+    background-color: #ffffff5f;
+    backdrop-filter: blur(20px);
+        font-size: 1.2em;
+    padding: 1px 5px;
+    border-radius: 10px;
+    /* flex: 1; */
+    width: 100%;
+    height: 15%;
+    /* background; */
+    cursor: pointer;
+    font-weight: normal;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RadialScreen div p:hover{
+/* font-weight: 560; */
+background-color: rgba(0, 0, 0, 0.196);
+
+
+/* backdrop-filter: blur(50px); */
+}
+.RadialScreen div p:active{
+    background-color: rgba(0, 0, 255, 0.135);
+}
+
+.RadialScreen div .copyState{
+    /* flex: 4; */
+    width: 100%;
+    background: none;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.RadialScreen div .copyState h2{
+    color: white;
+    font-size: 2em;
+    letter-spacing: 3px;
+    display: none;
+    transition: all 3s linear;
+}
+
+
+
+.Radial_edit_section{
+    height: 40%;
+    width: 100%;
+    /* background-color: #fff; */
+    }
+
+
+    .options_radial{
+        height: 25%;
+        width: 100%;
+        /* background-color:white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    /* .options button{
+        height: 100%;
+    font-size: 1.7em;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .2s linear;
+    }
+
+    .options button:hover{
+        transform: scale(1.001);
+    } */
+    .options_radial button {
+      align-items: center;
+      appearance: none;
+      background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+      border: 0;
+      border-radius: 6px;
+      box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: "JetBrains Mono",monospace;
+      height: 48px;
+      justify-content: center;
+      line-height: 1;
+      list-style: none;
+      overflow: hidden;
+      padding-left: 16px;
+      padding-right: 16px;
+      position: relative;
+      text-align: left;
+      text-decoration: none;
+      transition: box-shadow .15s,transform .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      will-change: box-shadow,transform;
+      font-size: 18px;
+    }
+
+    .options_radial button:focus {
+      box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    }
+
+    .options_radial button:hover {
+      box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+      transform: translateY(-2px);
+      /* background-color: #ffffff3f; */
+    }
+
+    .options_radial button:active {
+      box-shadow: #3c4fe0 0 3px 7px inset;
+      transform: translateY(2px);
+    }
+
+
+
+
+    .randomGenerate_radial{
+        height: 75%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .randomGenerate_radial button{
+        font-size: 1.7em;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        border:10px ridge white;
+        /* border-radius: 30px; */
+    }
+
+    .randomGenerate_radial button:hover{
+        transform: rotate(-5deg);
+    }
+

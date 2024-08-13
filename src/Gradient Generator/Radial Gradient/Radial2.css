@@ -1,0 +1,248 @@
+.radialBody{
+    height: 82vh;
+    width: 100%;
+    background-color: wheat;
+    /* background-color: black; */
+    margin-top: 3vh;
+}
+
+.radialScreen_manually{
+    height: 60%;
+    width: 100%;
+background-color: red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+gap: 2px;
+/* padding: 40px auto; */
+-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;     animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.radialScreen_manually .copy{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.radialScreen_manually p{
+    flex: .3;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+.radialScreen_manually p:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.radialScreen_manually p:active{
+    background-color: rgba(0, 0, 255, 0.317);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.edit_radial_mnually{
+    height:74%;
+    /* background-color: #fff; */
+    display: flex;
+    /* justify-content: ; */
+    /* align-items: center; */
+    padding: 10px;
+    gap: 5px;
+}
+
+
+.edit_radial_mnually fieldset{
+    flex: 1;
+    border: 2px solid #593300;
+}
+.edit_radial_mnually fieldset legend{
+    font-size:1.7em;
+    padding: 4px;
+    background: linear-gradient(270deg, #ff8a00, green, blue, red);
+background-size: 800% 800%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradientAnimation 8s ease infinite;
+}
+
+
+.colors{
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.colors >div{
+    /* padding: 5px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px ;
+}
+
+.colors >div label{
+    font-size: 1.3em;
+}
+.colors >div input[type="color"] {
+    border: none;
+/* height: 500%; */
+cursor: pointer;
+background-color: wheat;
+
+}
+
+.colors >div input[type="number"]{
+font-size: 1.2em;
+width: 47px;
+border: none;
+cursor: pointer;
+background-color: wheat;
+}
+
+.colors >div input[type="number"]:hover{
+border: none;
+outline: none;
+outline: 1px solid green;
+
+}
+
+.colors >div input[type="number"]:focus{
+    border: none;
+    outline: 1px solid green;
+width: 60px;
+    }
+
+    .colors >div span{
+font-size: 1.4em;
+font-weight: bold;
+/* position: relative; */
+/* left: -30px; */
+    }
+
+
+
+    .shapes{
+        display: flex;
+        align-items: center;
+
+        justify-content: space-around;
+    }
+.shapes div{display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+
+    .shapes div input {
+        /* -webkit-appearance: none; Remove default styling in WebKit browsers */
+        width: 30px; /* Adjust size as needed */
+        height: 30px; /* Adjust size as needed */
+        border-radius: 50%; /* Makes the input circular */
+        border: 2px solid #ccc; /* Optional: Add a border */
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .shapes div input::-webkit-color-swatch {
+        border-radius: 50%; /* Makes the color swatch circular in WebKit browsers */
+      }
+
+      .shapes div input::-moz-color-swatch {
+        border-radius: 50%; /* Makes the color swatch circular in Firefox */
+      }
+
+.shapes div label{
+font-size: 1.6em;
+cursor: pointer;
+}
+
+
+
+.sizes{
+    /* background-color: /; */
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px
+    ;
+}
+
+.shape_chice{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+}
+
+.allowSize label{
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+
+
+.sizes div{
+    flex: 1;
+}
+.size select{
+font-size: 1.4em;
+cursor: pointer;
+/* border: none; */
+outline: none;
+background-color: wheat;
+
+/* color: #00000036; */
+
+
+
+}
+
+.size select option {
+    cursor: pointer;
+}
+
+
+.size_per input{
+    font-size: 1.4em;
+    text-align: center;
+    outline: none;
+    background-color: wheat;
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.311);
+
+}
+
+
+.shape_per input:focus{
+    outline: 1px solid black;
+}
